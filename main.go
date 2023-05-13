@@ -16,11 +16,10 @@ import (
 )
 
 type Trip struct {
-	PassengerName  string `json:"passengername"`
-	Destination    string `json:"destination"`
-	PickupPoint    string `json:"pickuppoint"`
-	PhoneNumber    string `json:"phonenumber"`
-	PhoneNumberInt *int   `json:"-"`
+	PassengerName string `json:"passengername"`
+	Destination   string `json:"destination"`
+	PickupPoint   string `json:"pickuppoint"`
+	PhoneNumber   string `json:"phonenumber"`
 }
 
 type Repository struct {
